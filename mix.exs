@@ -25,7 +25,8 @@ defmodule EphpWeb.MixProject do
       {:bandit, "~> 1.0-pre"},
       {:plug, "~> 1.14"},
       {:cowboy, "~> 2.0"},
-      {:ephp, "~> 0.3.1"}
+      # use github repo : git@github.com:bragful/ephp.git branch master, latest commit
+      {:ephp, git: "https://github.com/bragful/ephp.git", branch: "master"},
     ]
   end
 end
